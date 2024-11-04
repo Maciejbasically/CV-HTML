@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+hr.new1 {
+  border:  white;}
+  
+ hr.new2 {
+  border-top: 1px dashed black;
+}
+ 
+ .layout {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    padding: 0px;
+}
+
+ nav{
+  background: #e8d9cf ;
+  float: right;
+  text-align:center;
+  width:75%;
+  margin-right: auto;
+   border-style: solid;
+  border-color: black;
+  
+  
+}
+ 
+ aside {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 100%; /* only for demonstration, should be removed */
+  background: #d6bba9 ;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+ }
+  
+ article {
+  float: left;
+  width: 75%;
+  height: 100%; /* only for demonstration, should be removed */
+  background: #e2cfc2;
+  padding: 20px;
+
+}
+
+footer {
+  float: left;
+  width: 75%;
+  height: 100%;
+  background-color: #d6bba9 ;
+  padding: 10px;
+  text-align: left;
+  border-style: solid;
+  border-color: black;
+ 
+}
+
+.text{
+	font-size: 20px;
+	margin-left: 10px; 
+
+}
+	
+.conatiner{
+		display: flex;
+            align-items: center;
+			
+}
+	
+
+
+
+.user_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100px;	
+}
+
+.phone_image {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 85px;
+  
+}
+
+.mail_image {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 85px;
+}
+
+.linkedin_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 60px;
+}
+
+.github_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 60px;
+}
+
+
+
+
+
+.one_square {
+  display: inline-block;
+  height: 20px;
+  width: 50px;
+  background-color: #000000;
+  border: 1px black
+}
+.two_square {
+  display: inline-block;
+  height: 20px;
+  width: 50px;
+  background-color: #edebe9;
+  border: 1px black
+}
+p.a { 
+  word-spacing: 2cm;
+}
+  
+.spacing{
+  float: left;
+  width: 20%;
+  height: 100px; /* only for demonstration, should be removed */
+  background: #e2cfc2;
+  border: 1px black
+  padding: 10px;
+
+}
+
+ @media only screen and (min-width: 1200px) {
+  .block {
+    width: 50%;
+  }
+}
